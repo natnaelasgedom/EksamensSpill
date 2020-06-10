@@ -9,10 +9,4 @@ namespace EksamenSpill
             Console.WriteLine("Hello World!");
         }
     }
-
-    public interface IBrukergrensesnitt
-    {
-        void giStatus(string status);
-        int beOmKommando(string spørsmål, string[] alternativet);
-    }
 }
