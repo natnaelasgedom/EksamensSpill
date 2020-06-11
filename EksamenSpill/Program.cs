@@ -9,6 +9,7 @@ namespace EksamenSpill
         {
 			Console.WriteLine("HEEELZZ YEAH!!!!");
             Console.WriteLine("Hello, world!");
+            Console.WriteLine("Grevling");
         }
     }
 
