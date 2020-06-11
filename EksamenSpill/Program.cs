@@ -4,13 +4,9 @@ namespace EksamenSpill
 {
     class Program
     {
-        //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         static void Main(string[] args)
         {
-			Console.WriteLine("HEEELZZ YEAH!!!!");
             Console.WriteLine("Hello, world!");
-            Console.WriteLine("Grevling");
-            Console.WriteLine("");
         }
     }
 
