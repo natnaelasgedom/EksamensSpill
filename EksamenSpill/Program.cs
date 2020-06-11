@@ -19,6 +19,7 @@ namespace EksamenSpill
 
         public int BeOmKommando(string spørsmål, string[] alternativer)
         {
+            Console.WriteLine(spørsmål);
             return 1;
         }
     }
