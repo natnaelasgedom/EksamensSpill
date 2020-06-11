@@ -2,7 +2,7 @@
 {
     public interface IBrukergrensesnitt
     {
-        void giStatus(string status);
-        int beOmKommando(string spørsmål, string[] alternativet);
+        void GiStatus(string status);
+        int BeOmKommando(string spørsmål, string[] alternativet);
     }
 }
