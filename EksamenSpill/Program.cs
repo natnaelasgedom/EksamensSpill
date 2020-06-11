@@ -6,7 +6,7 @@ namespace EksamenSpill
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Lisa");
+            Console.WriteLine("Hello, world!");
         }
     }
 
