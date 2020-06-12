@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.IO;
 
 namespace EksamenSpill
 {
@@ -6,21 +6,10 @@ namespace EksamenSpill
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
-        }
-    }
-
-    public class Terminal : IBrukergrensesnitt
-    {
-        public void GiStatus(string status)
-        {
-            Console.WriteLine(">>>Status: " + status);
-        }
-
-        public int BeOmKommando(string spørsmål, string[] alternativer)
-        {
-            Console.WriteLine(spørsmål);
-            return 1;
+           
         }
     }
 }
+
+
+
