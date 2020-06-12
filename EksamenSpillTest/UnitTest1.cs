@@ -12,9 +12,11 @@ namespace EksamenSpillTest
         }
 
         [Test]
-        public void Terminal_BeOmKommando_Test()
+        public void Robot_BeOmKommando_Test()
         {
-            Assert.IsTrue(true);
+            Robot robot = new Robot();
+            int robotChoice = robot.BeOmKommando("Spørsmål?", new string[] { "bla1", "bla2", "bla3", "bla4"});
+            Assert.IsTrue(robotChoice<=4);
         }
     }
 }
